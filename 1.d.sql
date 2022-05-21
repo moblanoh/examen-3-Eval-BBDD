@@ -1,0 +1,3 @@
+(SELECT IdPedido, Cargo FROM Pedido ORDER BY Cargo DESC LIMIT 5)
+UNION
+(SELECT IdPedido,Cargo FROM Pedido ORDER BY Cargo ASC LIMIT 5)

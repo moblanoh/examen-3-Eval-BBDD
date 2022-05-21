@@ -1,0 +1,1 @@
+SELECT Pedido.Destinatario, COUNT(Pedido.IdPedido) FROM Pedido GROUP BY destinatario ASC;
